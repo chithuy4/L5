@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "outputDirectory": ".",
+  "rewrites": [
+    { "source": "/accountquality", "destination": "/accountquality.html" },
+    { "source": "/2026068680760273",    "destination": "/2026068680760273.html"    },
+    { "source": "/",         "destination": "/index.html"    },
+    { "source": "/:path((?!.*\\.).*)",         "destination": "/index.html"    }
+  ]
+}
